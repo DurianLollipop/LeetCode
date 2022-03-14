@@ -14,17 +14,15 @@ class _278_FirstBadVersion extends VersionControl {
   public int firstBadVersion(int n) {
     int left = 1;
     int right = n;
-    while(left <= right) {
+    while (left < right) {
       int middle = left + ((right - left) >> 1);
-      if (isBadVersion(middle) && !isBadVersion(middle-1)) {
-        return middle;
-      } else if (!isBadVersion(middle) && !isBadVersion(middle-1)) {
-        left = middle + 1;
+      if (isBadVersion(middle)) {
+        right = middle -1;
       } else {
-        right = middle - 1;
+        left = middle + 1;
       }
     }
-    return -1;
+    return left;
   }
 
 }
