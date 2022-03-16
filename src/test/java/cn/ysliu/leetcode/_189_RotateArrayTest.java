@@ -2,6 +2,8 @@ package cn.ysliu.leetcode;
 
 import java.util.Arrays;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class _189_RotateArrayTest {
@@ -13,7 +15,7 @@ class _189_RotateArrayTest {
     int[] arrays = new int[]{-1,-100,3,99};
     int rotateSize = 2;
     rotateArray.rotate1(arrays, rotateSize);
-    assertEquals(Arrays.toString(new int[]{3,99,-1,-100}), Arrays.toString(arrays));
+    assertArrayEquals(new int[]{3,99,-1,-100}, arrays);
   }
 
   @Test
@@ -21,7 +23,7 @@ class _189_RotateArrayTest {
     int[] arrays = new int[]{1,2,3,4,5,6,7};
     int rotateSize = 3;
     rotateArray.rotate1(arrays, rotateSize);
-    assertEquals(Arrays.toString(new int[]{5,6,7,1,2,3,4}), Arrays.toString(arrays));
+    assertEquals(new int[]{5,6,7,1,2,3,4}, arrays);
   }
 
   @Test
@@ -29,7 +31,7 @@ class _189_RotateArrayTest {
     int[] arrays = new int[]{-1};
     int rotateSize = 2;
     rotateArray.rotate1(arrays, rotateSize);
-    assertEquals(Arrays.toString(new int[]{-1}), Arrays.toString(arrays));
+    assertEquals(new int[]{-1}, arrays);
   }
 
 }
