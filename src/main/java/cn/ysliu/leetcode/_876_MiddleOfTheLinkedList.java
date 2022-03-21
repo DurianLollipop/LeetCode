@@ -1,5 +1,7 @@
 package cn.ysliu.leetcode;
 
+import cn.ysliu.leetcode.common.ListNode;
+
 /**
  * 876. 链表的中间结点
  * label：双指针
@@ -23,12 +25,4 @@ class _876_MiddleOfTheLinkedList {
     return slow;
   }
 
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
