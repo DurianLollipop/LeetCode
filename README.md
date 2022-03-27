@@ -13,3 +13,16 @@
 | 557. 反转字符串中的单词 III    | 双指针              | https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/              |
 | 876. 链表的中间结点    | 双指针              | https://leetcode-cn.com/problems/middle-of-the-linked-list/              |
 | 19. 删除链表的倒数第 N 个结点    | 双指针              | https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/              |
+| 509. 斐波那契数    | 递归，备忘录，动态规划              | https://leetcode-cn.com/problems/fibonacci-number/              |
+
+# nowcoder
+
+| 题目               | url                                                          |
+|------------------| ------------------------------------------------------------ |
+| HJ1 字符串最后一个单词的长度 | https://www.nowcoder.com/practice/8c949ea5f36f422594b306a2300315da |
+| HJ2 计算某字符出现次数    | https://www.nowcoder.com/practice/a35ce98431874e3a820dbe4b2d0508b1 |
+| HJ3 明明的随机数       | https://www.nowcoder.com/practice/3245215fffb84b7b81285493eae92ff0 |
+| HJ5 进制转换         | https://www.nowcoder.com/practice/8f3df50d2b9043208c5eed283d1d4da6 |
+| HJ10 字符个数统计      | https://www.nowcoder.com/practice/eb94f6a5b2ba49c6ac72d40b5ce95f50 |
+| NC61 两数之和        | https://www.nowcoder.com/practice/20ef0972485e41019e39543e8e895b7f |
+
