@@ -14,7 +14,8 @@
 | 876. 链表的中间结点    | 双指针              | https://leetcode-cn.com/problems/middle-of-the-linked-list/        |
 | 19. 删除链表的倒数第 N 个结点    | 双指针              | https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/ |
 | 509. 斐波那契数    | 递归，备忘录，动态规划              | https://leetcode-cn.com/problems/fibonacci-number/                 |
-| 322. 零钱兑换    | 递归，备忘录，动态规划              | https://leetcode-cn.com/problems/coin-change/                      |
+| 322. 零钱兑换    | 0-1背包问题，动态规划，备忘录，递归              | https://leetcode-cn.com/problems/coin-change/                      |
+| 518. 零钱兑换 II    | 0-1背包问题，动态规划，备忘录，递归              | https://leetcode-cn.com/problems/coin-change-2/                      |
 
 # nowcoder
 
