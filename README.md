@@ -16,6 +16,7 @@
 | 509. 斐波那契数    | 递归，备忘录，动态规划              | https://leetcode-cn.com/problems/fibonacci-number/                 |
 | 322. 零钱兑换    | 0-1背包问题，动态规划，备忘录，递归              | https://leetcode-cn.com/problems/coin-change/                      |
 | 518. 零钱兑换 II    | 0-1背包问题，动态规划，备忘录，递归              | https://leetcode-cn.com/problems/coin-change-2/                      |
+| 46. 全排列    | 回溯              | https://leetcode-cn.com/problems/permutations/                      |
 
 # nowcoder
 
